@@ -32,7 +32,7 @@ skinparam Arrow {
     FontSize 12
 }
 
-skinparam rectangle<<boundary>> {
+skinparam rectangle<<Граница>> {
     Shadowing false
     StereotypeFontSize 0
     FontColor #444444
@@ -56,8 +56,8 @@ center footer <font color=red>Warning:</font> Created for discussion, needs to b
 ' Boundaries
 ' ##################################
 
-!define Boundary(e_alias, e_label) rectangle "==e_label" <<boundary>> as e_alias
-!define Boundary(e_alias, e_label, e_type) rectangle "==e_label\n<size:TECHN_FONT_SIZE>[e_type]</size>" <<boundary>> as e_alias
+!define Boundary(e_alias, e_label) rectangle "==e_label" <<Граница>> as e_alias
+!define Boundary(e_alias, e_label, e_type) rectangle "==e_label\n<size:TECHN_FONT_SIZE>[e_type]</size>" <<Граница>> as e_alias
 
 ' Relationship
 ' ##################################
